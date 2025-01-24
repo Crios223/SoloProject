@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    /* You can adjust as needed: background color, border, etc. */
+  }
+  
+  .header__logo .logo-image {
+    height: 40px; /* adjust as needed */
+    cursor: pointer;
+  }
+  
+  .header__auth {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .header__login-btn,
+  .header__signup-btn {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
